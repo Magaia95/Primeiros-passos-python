@@ -1,0 +1,2 @@
+nome="algerio"
+print(f"bem vindo ao meu historico da linguagem python!")
