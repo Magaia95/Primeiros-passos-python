@@ -7,7 +7,7 @@ if idade>=31 and status_ativo==True:
 else:
   print("acesso Negado!")
 
-    nome_aluno="algerio"
+nome_aluno="algerio"
 nota=12.7
 presenca=True
 if nota>= 7 and presenca:
@@ -30,7 +30,7 @@ print("categoria:juvenil")
 else:
   print("categoria: adulto")
 
-  for numero in range(1,6):
+for numero in range(1,6):
   print(f"contagem:{numero}")
 
 frutas=["maca", "banana", "laranja"]
