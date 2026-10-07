@@ -20,13 +20,13 @@ eh_vip=False
 if valor_compra>=100 or eh_vip:
   print("Desconto aplicado com sucesso!")
 else:
-print("sem desconto. Valor normal aplicado.")
+  print("sem desconto. Valor normal aplicado.")
 
 idade_atleta=15
 if idade_atleta<12:
   print("categoria:infantil")
 elif idade_atleta<18:
-print("categoria:juvenil")
+  print("categoria:juvenil")
 else:
   print("categoria: adulto")
 
@@ -34,8 +34,8 @@ for numero in range(1,6):
   print(f"contagem:{numero}")
 
 frutas=["maca", "banana", "laranja"]
-  for fruta in frutas:
-    print(f"Eu gosto de {fruta}")
+for fruta in frutas:
+  print(f"Eu gosto de {fruta}")
 
 contador=1
 while contador<=3:
