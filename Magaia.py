@@ -37,10 +37,10 @@ frutas=["maca", "banana", "laranja"]
 for fruta in frutas:
   print(f"Eu gosto de {fruta}")
 
-contador=1
-while contador<=3:
+contador = 1
+while contador <= 3:
   print(f"contador com while: {contador}")
-contador=contador+1
+  contador = contador + 1
 
 
 def dar_boas_vindas (nome):
