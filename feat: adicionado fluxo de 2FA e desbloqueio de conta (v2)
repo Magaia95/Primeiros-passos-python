@@ -1,0 +1,15 @@
+# Sistema de Autenticação e Recuperação de Conta em Python
+
+Este projeto simula um fluxo de segurança e gestão de acessos de utilizadores via terminal em Python.
+
+## 🚀 Funcionalidades
+- **Autenticação em Dois Fatores (2FA):** Envio e validação de código de 6 dígitos via E-mail ou SMS.
+- **Gestão de Senhas:** Geração automática de senha forte (14 caracteres) com opção de personalização (8 a 14 caracteres).
+- **Proteção contra Força Bruta:** Limite de 3 tentativas de login antes do bloqueio automático.
+- **Recuperação e Desbloqueio:** Processo de desbloqueio ativo via nova verificação 2FA e redefinição de senha na mesma sessão.
+
+## 🛠️ Como Executar
+1. Certifique-se de ter o Python 3 instalado.
+2. No terminal, execute:
+   ```bash
+   python main.py
